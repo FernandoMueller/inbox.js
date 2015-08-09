@@ -1,0 +1,27 @@
+{
+  "name": "inbox.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/randalmaia/inbox.js",
+  "authors": [
+    "Randal Maia <randalmaia@gmail.com>"
+  ],
+  "description": "A useful JS api for Inbox by gMail",
+  "main": "inbox.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "inbox",
+    "gmail",
+    "api"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
