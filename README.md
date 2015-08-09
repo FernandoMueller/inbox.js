@@ -1,5 +1,5 @@
 # inbox.js
-Inbox by Gmail Javascript API like https://github.com/KartikTalwar/gmail.js
+Inspired by [Gmail js API](https://github.com/KartikTalwar/gmail.js)
 
 
 #To Do
