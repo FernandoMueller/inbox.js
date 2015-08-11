@@ -9,9 +9,6 @@
 		};
 	};
 
-	
-
-
 	if (typeof exports !== 'undefined') {
 		module.exports = Inbox;
 	} else {
