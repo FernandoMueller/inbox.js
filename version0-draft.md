@@ -1,14 +1,14 @@
 ##User
-Get user email
-Get username
-Get user id
+[x] Get user email
+[ ] Get username
+[ ] Get user id
 
 ##Inbox
-Unread Emails
+[ ] Unread Emails
 
 ##Email
-Write email
-Add email to
-Add subject
-Add compose
-Observe compose
+[ ] Write email
+[ ] Add email to
+[ ] Add subject
+[ ] Add compose
+[ ] Observe compose

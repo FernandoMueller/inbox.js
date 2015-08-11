@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/randalmaia/inbox.js/issues"
   },
-  "homepage": "https://github.com/randalmaia/inbox.js"
+  "homepage": "https://github.com/randalmaia/inbox.js",
+  "devDependencies": {
+    "pioneer": "^1.11.5"
+  }
 }
