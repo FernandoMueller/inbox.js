@@ -1,27 +1,13 @@
 {
-  "name": "inbox.js",
-  "version": "1.0.0",
-  "description": "A uselful JS api for Inbox by gMail",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/randalmaia/inbox.js.git"
-  },
-  "keywords": [
-    "inbox",
-    "gmail",
-    "api"
-  ],
-  "author": "Randal Maia",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/randalmaia/inbox.js/issues"
-  },
-  "homepage": "https://github.com/randalmaia/inbox.js"
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "gulp": "^3.8.11",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.3.1",
+    "karma-mocha": "^0.1.10",
+    "karma-mocha-reporter": "^1.0.2",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.2.4"
+  }
 }
