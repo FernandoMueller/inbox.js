@@ -3,7 +3,6 @@
 
   describe( 'User', function() {
     beforeEach(function() {
-		window = {};
 		window.BT_SharedWorkerName = 'shared_sync_worker#randalmaia@gmail.com';
 	});
 
