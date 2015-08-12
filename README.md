@@ -5,5 +5,10 @@ Inspired by [Gmail js API](https://github.com/KartikTalwar/gmail.js)
 #To Do
 - [x] Draft ***version zero*** api functions 
 - [x] Base project
-- [ ] Diagnostic DOM Elements on Inbox
-- [ ] Plan next steps... 
+- [ ] Get username function
+- [ ] Get number of unread messages function
+- [ ] New email function 
+- [ ] Add "email to" function
+- [ ] Add "subject" function
+- [ ] Add email "compose" 
+- [ ] Observe "compose"
