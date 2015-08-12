@@ -6,8 +6,8 @@ before_install:
    - "npm i -g gulp mocha istanbul codeclimate-test-reporter"
    - "npm i --save coveralls mocha-lcov-reporter"
 
-install:
-   - "gulp"
+script:
+   - gulp
 
 # addons:
 #   code_climate:
