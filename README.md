@@ -12,3 +12,4 @@ Inspired by [Gmail js API](https://github.com/KartikTalwar/gmail.js)
 - [ ] Add "subject" function
 - [ ] Add email "compose" 
 - [ ] Observe "compose"
+- [ ] ***Release version 0*** :rocket: 
