@@ -5,13 +5,13 @@
 		this.getEmail = function(){
 			var user = window.window.BT_WorkerInitMessage;
 			var findMail = /[a-z0-9._%+-]+@+[a-z0-9._%+-]+.[a-z]{2,4}/g;
-			return user.match(findMail);
+			var mail = user.match(findMail);
+			return mail[0];
 		};
 	};
 
-	if (typeof exports !== 'undefined') {
-		module.exports = Inbox;
-	} else {
-		window.Inbox = Inbox;
-	}
+	
+	
+	window.Inbox = Inbox;
+	
 }).call(this);

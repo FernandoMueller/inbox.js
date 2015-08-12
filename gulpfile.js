@@ -1,7 +1,18 @@
-var gulp = require('gulp');
-var jasmine = require('gulp-jasmine');
+'use strict';
 
-gulp.task('default', function () {
-    return gulp.src('test/inbox.spec.js')
-        .pipe(jasmine());
+var gulp = require( 'gulp' );
+var karma = require( 'karma' ).server;
+var exec = require( 'child_process' ).exec;
+
+gulp.task( 'test', function( done ) {
+  karma.start({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: true
+  }, done );
 });
+
+gulp.task( 'watch', [ 'test' ], function() {
+  gulp.watch( '{test,src}/**/*.js', [ 'test' ]);
+});
+
+gulp.task( 'default', [ 'test' ]);
