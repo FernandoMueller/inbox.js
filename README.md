@@ -5,7 +5,7 @@ Inspired by [Gmail js API](https://github.com/KartikTalwar/gmail.js)
 #To Do
 - [x] Draft ***version zero*** api functions 
 - [x] Base project
-- [ ] Get username function
+- [x] Get username function
 - [ ] Get number of unread messages function
 - [ ] New email function 
 - [ ] Add "email to" function

@@ -1,6 +1,6 @@
 ##User
 [x] Get user email
-[ ] Get username
+[x] Get username
 [ ] Get user id
 
 ##Inbox
